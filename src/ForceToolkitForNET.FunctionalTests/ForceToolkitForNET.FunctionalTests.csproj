@@ -78,16 +78,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommonLibrariesForNET\CommonLibrariesForNET.csproj">
-      <Project>{688bc3a2-29c2-48f7-bc28-7a81abf5c3d3}</Project>
-      <Name>CommonLibrariesForNET</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ForceToolkitForNET\ForceToolkitForNET.csproj">
-      <Project>{1CC985BC-27F3-4F1D-8946-F4DDB084B58F}</Project>
-      <Name>ForceToolkitForNET</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

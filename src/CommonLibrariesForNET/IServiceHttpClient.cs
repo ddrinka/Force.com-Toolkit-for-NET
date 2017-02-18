@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Salesforce.Common.Models;
+using Salesforce.Common.Models.Json;
 
 namespace Salesforce.Common
 {
-    public interface IServiceHttpClient : IDisposable
+	public interface IServiceHttpClient : IDisposable
     {
         Task<T> HttpGetAsync<T>(string urlSuffix);
         Task<T> HttpGetRestApiAsync<T>(string apiName);
